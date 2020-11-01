@@ -1,4 +1,4 @@
-FROM bitnami/minideb-extras:stretch
+FROM bitnami/minideb:stretch
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get -q update
